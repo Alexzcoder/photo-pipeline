@@ -37,12 +37,12 @@ OpenArt `openart_account_get` -> credits; Higgsfield `balance`. Say: "You have N
 This run is M images." Remember N.
 
 ## 2. Build
-`python3 make_jobs.py "<folder>" --scenes a,b,c --style X --light Y --per N [--banner]`
+`python make_jobs.py "<folder>" --scenes a,b,c --style X --light Y --per N [--banner]`
 It uploads the sources to a public host and writes `jobs.json`. Read it for the shot list.
 
 ## 3. Test gate
 Generate all shots of the first carpet only (recipes in CLAUDE.md), save each with
-`python3 save_shot.py "<url>" "<shot.file>"`, then Read the saved images (no contact sheet needed)
+`python save_shot.py "<url>" "<shot.file>"`, then Read the saved images (no contact sheet needed)
 and tell the user in three lines whether the pattern is kept, the scale looks real, and there is
 no text/banner. Name the output folder so they can look themselves.
 Ask: continue with the rest, change settings (go back to step 1), or stop.
@@ -53,6 +53,6 @@ More than 5 carpets: split into 3 or 4 ranges and run parallel subagents, each w
 CLAUDE.md recipe and its range. Stop everything on any credits/balance/quota/payment error.
 
 ## 5. Report
-`python3 status.py`, then fetch the balance again. Report: images done, folder path, failures, and
+`python status.py`, then fetch the balance again. Report: images done, folder path, failures, and
 "This run used X credits (N before, now N-X left)". Never claim done without status.py and the
 credit line. If the user stops at the test gate, give the same credit line for what was spent.

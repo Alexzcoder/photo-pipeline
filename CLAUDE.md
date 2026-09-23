@@ -45,5 +45,5 @@ transaction history, Sep 2026). Preferred connector when both are available.
 - Output paths are fixed by jobs.json (`<folder>/shots/<carpet>/<carpet>-NN-<scene>.jpg`); skip files that exist.
 - Do not look at generated images during the batch, only at the test gate or when asked.
 - Stop on any error mentioning credits, balance, quota or payment; report where you stopped.
-- Resume = `python3 status.py --json` and continue with what is left.
+- Resume = `python status.py --json` and continue with what is left.
 - Never commit carpet photos, outputs, jobs.json or .urls.json.

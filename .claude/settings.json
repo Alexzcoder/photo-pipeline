@@ -1,6 +1,10 @@
 {
   "permissions": {
     "allow": [
+      "Bash(python make_jobs.py *)",
+      "Bash(python save_shot.py *)",
+      "Bash(python status.py *)",
+      "Bash(python prompts.py)",
       "Bash(python3 make_jobs.py *)",
       "Bash(python3 save_shot.py *)",
       "Bash(python3 status.py *)",

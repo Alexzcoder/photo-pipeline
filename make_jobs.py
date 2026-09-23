@@ -1,5 +1,5 @@
 # Build jobs.json: one entry per carpet image in a folder, with public URL (catbox) + prompts per shot.
-# Usage: python3 make_jobs.py <folder> --scenes studio,livingroom,bedroom,dining,office,entryway,rolled
+# Usage: python make_jobs.py <folder> --scenes studio,livingroom,bedroom,dining,office,entryway,rolled
 #                             --style scandi-soft --light daylight [--per 1] [--banner] [--no-upload]
 # Sizes (metres) come from the filename ("1.6x2.3 red.jpg", "160x230.jpg") or from <folder>/sizes.csv (name,w,l).
 # Resumable: uploads are cached in .urls.json.

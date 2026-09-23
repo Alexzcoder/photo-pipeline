@@ -1,4 +1,4 @@
-# Download a generated image to an exact path as JPEG.   Usage: python3 save_shot.py <url> <out.jpg>
+# Download a generated image to an exact path as JPEG.   Usage: python save_shot.py <url> <out.jpg>
 import io, os, sys, time, urllib.request
 from PIL import Image
 

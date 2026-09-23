@@ -1,4 +1,4 @@
-# What is still missing from jobs.json.   Usage: python3 status.py [--json] [--carpet NAME]
+# What is still missing from jobs.json.   Usage: python status.py [--json] [--carpet NAME]
 import json, os, sys
 
 j = json.load(open("jobs.json")); want = sys.argv[sys.argv.index("--carpet") + 1] if "--carpet" in sys.argv else None

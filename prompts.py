@@ -1,5 +1,5 @@
 # Prompt builder for carpet marketing shots. Shared with the studio web tool; keep both copies identical.
-# python3 prompts.py  -> self-check
+# python prompts.py  -> self-check
 
 STYLES = {
  "classic-oriental":  "warm traditional, walnut and dark wood furniture, classic upholstery",
