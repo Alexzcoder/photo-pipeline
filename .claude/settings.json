@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 make_jobs.py *)",
+      "Bash(python3 save_shot.py *)",
+      "Bash(python3 status.py *)",
+      "Bash(python3 prompts.py)",
+      "Bash(test -f *)",
+      "Bash(ls *)",
+      "Bash(stat *)",
+      "Bash(curl -s -o /dev/null -w * -X PUT *)",
+      "mcp__claude_ai_OpenArt__*",
+      "mcp__claude_ai_Higsfield__*",
+      "mcp__higgsfield__*"
+    ]
+  }
+}

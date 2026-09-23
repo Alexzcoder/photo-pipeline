@@ -1,0 +1,4 @@
+jobs.json
+.urls.json
+__pycache__/
+.claude/settings.local.json
